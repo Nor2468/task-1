@@ -1,15 +1,17 @@
 body{
-    background-color: #fffdfc;    
-margin: 0px;
+    background-color: #fffdfc; /*This is the baxkground colour for the main parts. (The body) */   
+margin: 0px; 
+
 }
 main{
-margin: 20px;
+margin: 5px;
+
 }
 h1{
 margin-top: 50px;
 text-align: center;
 font-size: 70px;
-background-color: #ffeeeeff;
+background-color: rgb(255, 233, 244);  /*Changes the background area for just this space (The title area) */
 padding-top:50px;
 padding-bottom:50px;
 }
@@ -21,12 +23,12 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-z-index:1000;
+
 }
 
 .navbar a:hover {
-background-color: rgba(253, 190, 217, 0.659); /* Light background color */
-border-radius: 5px; /* Optional: rounded corners */
+background-color: rgba(255, 95, 164, 0.327); /* This is what changes when you hover over it */
+
 }
 
 
@@ -49,7 +51,19 @@ text-align: center;
 float:left;
 }
 
-
 .FunFacts {
-    padding-top: 100px;
+    background-color: rgb(255, 238, 255)
+}
+
+.Quiz {
+    background-color: #ffd6e4;
+
+}
+
+.TopArtists {
+    background-color: rgb(255, 248, 248);
+}
+
+.homeimages {
+    padding: 10px
 }

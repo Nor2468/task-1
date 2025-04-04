@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
-   
- 
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
 
 
 <body> 
-
+    <div class="list-container"></div>
    
    
     <h1>
-        Title of Website
+        StarSounds - Famous Singers
       
 
     </h1>
@@ -28,32 +27,60 @@
     <nav class="navbar">
     
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>   
+            <li><a href="#Home.html">Home</a></li>    /*The # tells it to only go to a certain part of the page, not a completely new page.*/
+            <li><a href="#Fun Facts.html">Fun Facts</a></li>
+            <li><a href="#Top Artists.html">Top Artists</a></li>
+            <li><a href="#Quiz.html">Quiz</a></li>   
         </ul>
     </nav>
 
     <main>
         <div class="homeimages">
+    
              <img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/11/1200/675/Taylor_Swift_Buenos_Aires.jpg?ve=1&tl=1" alt="Taylor Swift Image" width="300px" height="170px">
+
         <img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13066963/elton-john-1.1419979230.jpg?quality=90&strip=all&crop=16.780821917808,0,66.438356164384,100" alt="Elton John Image"  width="200px" height="170px">  
+
+
         <img src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe0b03484-23ad-42ba-8439-7ac36126881a.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1" alt="Beyonce Image" width="200px" height="170px">
         <img src="data:image/jpeg;base64,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" alt="Harry Styles image"  width="275px" height="170px"> 
         <img src="https://tvline.com/wp-content/uploads/2022/04/olivia-rodrigo-grammys.jpg" alt="Olivia Rodrigo image" width="240px" height="170px"> 
+
+        <img src="https://images.sk-static.com/images/media/profile_images/artists/182968/huge_avatar" alt="Eminem image" width="200px" height="170px">  
         </div>
     
-        <div class="FunFacts"></div>
+        <div class="FunFacts">
+            <section id="fun-facts">
         <h2> Fun Facts About Musicians: </h2>
-        <li> At the end of 2024 Taylor Swift was the top #1 singer in the world</li>
+        <li> Taylor swifts lucky number is 13</li>
         <li> When Stevie Wonder was 13 he made it to onto the Billboard hot 100</li> 
+        <li> Beyoncé's real name is Beyoncé Giselle Knowles </li>
+        <li> Elvis Presley had a twin brother</li>
+        <li> Alicia Keys has won 17 Grammy awards</li>
+        <li> Lady Gaga's birthday is 28th of March 1986 </li>
+        <li> P!nk's full name is Alecia Beth Moore</li>
+        <li> Ed Sheeran's favourite game is Monopoly. </li>
     </div>
+</section>
     
         </p>
-      <h2>Top Singers: </h2>
-      <h3> 2023:</h3>
+    <div class="TopArtists">
+        <section id="top-artists">
+
+      <h2>Top Artists: </h2>
+      <ul class="horizontal-list">
+      <h3> 2022:</h3>
+      <li> 1. Bad Bunny</li>
+      <li> 2. Taylor Swift </li>
+      <li> 3. Drake </li>
+      <li> 4. The Weeknd </li>
+      <li> 5. BTS </li>
+    </ul>
+
+
+    <ul class="horizontal-list">
     
+      <h3> 2023:</h3>
      <li> 1. Taylor Swift</li>
      <li> 2. Bad Bunny</li>
      <li> 3. The Weeknd</li>
@@ -64,9 +91,44 @@
      <li> 8. SZA</li>
      <li> 9. KAROL G</li>
      <li> 10. Lana Del Rey</li>
-    
-    </main>
+   </ul>
 
+    <ul class=horizontal-list>  
+    <h3> 2024: </h3>
+    <li> 1. Taylor Swift</li>
+    <li> 2. The Weeknd</li>
+    <li> 3. Bad Bunny</li>
+    <li> 4. Drake</li>
+    <li> 5. Billie Eilish</li>
+    <li> 6. Travis Scott</li>
+    <li> 7. Peso Pluma</li>
+    <li> 8. Kanye West</li>
+    <li> 9. Ariana Grande </li>
+    <li> 10. Feid </li>
+</ul>
+</section>
+
+<div class="Quiz">
+    <section id="quiz">
+<h2> Quiz: </h2>
+
+   <li> 1. What was the most recent album that Beyoncé released?</li>
+   <li> 2. How many Grammy awards has Kendrick Lamar won? </li>
+   <li> 3. How many albums has Taylor Swift realeased? </li>
+   <li> 4. Around what age did Billie Eilish become famous? </li>
+   <li> 5. How many instruments did Prince play in his debut album 'For You'?</li>
+
+<h3> Answers: </h3>
+<li> 1. Cowboy Carter </li>
+<li> 2. 22 Grammy Awards  </li>
+<li> 3. 11 but she has rerecorded albums so 17 in total </li>
+<li> 4. Around the age of 13</li>
+<li> 5. 27 instuments</li>
+</div>
+</section>
+
+</main>
+</div>
 </body>
 </html>
 
